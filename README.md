@@ -21,7 +21,7 @@ To install lazygit on your system, follow these steps:
 ### Use installation script
 
 ```bash
-wget https://raw.githubusercontent.com/ShadowNetter-Official/lazygit/main/install.sh && install.sh
+wget https://raw.githubusercontent.com/ShadowNetter-Official/lazygit/main/install.sh && sh install.sh
 ```
 
 ### Or install manually:
