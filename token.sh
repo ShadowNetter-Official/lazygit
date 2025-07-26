@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo
-echo "Input Github Personal Access Token: " $token
+read -p "Input Github Personal Access Token: " $token
 touch lazygit
 echo "#!/bin/bash" >> lazygit
 echo "PAT=$token" >> lazygit
