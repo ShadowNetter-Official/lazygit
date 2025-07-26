@@ -18,7 +18,7 @@ Simple Git CLI Client
 
 To install lazygit on your system, follow these steps:
 
-### Use isntallation script
+### Use installation script
 
 ```bash
 wget https://raw.githubusercontent.com/ShadowNetter-Official/lazygit/main/install.sh && install.sh

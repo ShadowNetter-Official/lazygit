@@ -14,7 +14,11 @@ cd lazygit
 echo "done"
 echo
 echo "Input Github Personal Access Token: " $token
-sed -i "1a $token" lazygit
+touch lazygit
+echo "#!/bin/bash" >> lazygit
+echo "PAT=$token" >> lazygit
+echo "" >> lazygit
+cat lazy >> lazygit
 echo
 echo "Installing..."
 chmod +x lazygit
